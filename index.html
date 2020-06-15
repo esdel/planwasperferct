@@ -83,11 +83,11 @@
               <!-- Button trigger modal -->
               <button type="button" id="couponbutton" class="btn btn-warning btn-lg mb-3" data-toggle="modal" data-target="#couponModal">5,000원 쿠폰받기 ▼ </button>
               <!-- Modal -->
-              <div class="modal fade" id="couponModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="color:black;">
+              <div class="modal fade" id="couponModal" tabindex="-1" role="dialog" aria-labelledby="couponModalLabel" aria-hidden="true" style="color:black;">
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">쿠폰이 발행되었습니다.</h5>
+                      <h5 class="modal-title" id="couponModalLabel">쿠폰이 발행되었습니다.</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -109,7 +109,7 @@
         <div class="container">
           <h5>참여작 미리보기</h5><br>
           <div id="carousel" class="row">
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div id="carouselReview" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="img/review1.jpg" class="d-block w-100" alt="...">
@@ -121,11 +121,11 @@
                   <img src="img/review3.jpg" class="d-block w-100" alt="...">
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <a class="carousel-control-prev" href="#carouselReview" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
               </a>
-              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <a class="carousel-control-next" href="#carouselReview" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
@@ -147,22 +147,22 @@
         <div class="container">
           <form>
             <div class="form-group pt-3">
-              <label for="exampleFormControlInput1">ID(이메일주소)를 입력해주세요!</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              <label for="FormControlEmail">ID(이메일주소)를 입력해주세요!</label>
+              <input type="email" class="form-control" id="FormControlEmail" placeholder="name@example.com">
             </div>
             <div class="form-group">
-              <label for="exampleFormControlSelect1">구매한 상품을 선택해주세요.</label>
-              <select class="form-control" id="exampleFormControlSelect1">
+              <label for="FormControlSelectProduct">구매한 상품을 선택해주세요.</label>
+              <select class="form-control" id="FormControlSelectProduct">
                 <option>1인 감성캠핑 세트</option>
                 <option>2인 감성캠핑 세트</option>
               </select>
             </div>
             <div class="form-group">
-              <label for="exampleFormControlTextarea1">멋진 리뷰를 남겨주세요!</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <label for="FormControlTextReview">멋진 리뷰를 남겨주세요!</label>
+              <textarea class="form-control" id="FormControlTextReview" rows="3"></textarea>
             </div>
-            <label for="exampleFormControlFile1">사진 또는 동영상 첨부하기</label>
-            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            <label for="FormControlFileUpload">사진 또는 동영상 첨부하기</label>
+            <input type="file" class="form-control-file" id="FormControlFileUpload">
             <div class="container p-5" style="text-align:center">
               <button type="submit" id="reveiwComplete" class="btn btn-warning btn-lg pl-5 pr-5">리뷰 등록하기</button>
             </div>
