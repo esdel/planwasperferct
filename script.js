@@ -1,13 +1,11 @@
 var reviewStart = document.getElementById('reviewButton')
 var reviewComplete = document.getElementById('reveiwComplete')
 var copyClipboard = document.getElementById('copyClipboard')
-dataLayer=[];
 
 // <!-- 리뷰작성 바로가기 버튼 클릭 -->
 reviewStart.addEventListener("click",moveToReview)
 function moveToReview(){
   location.href="#reviewTitle"
-  dataLayer.push({'event':'reviewStart'});
 }
 // <!-- 클립보드 복사 완료 alert -->
 copyClipboard.addEventListener("click",clipboard)

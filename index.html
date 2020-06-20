@@ -145,7 +145,7 @@
       <!-- 리뷰 작성 폼 -->
       <section id="reviewForm">
         <div class="container">
-          <form>
+          <form onsubmit="dataLayer.push({ 'event' : 'submitReview' });">
             <div class="form-group pt-3">
               <label for="FormControlEmail">ID(이메일주소)를 입력해주세요!</label>
               <input type="email" class="form-control" id="FormControlEmail" placeholder="name@example.com">
