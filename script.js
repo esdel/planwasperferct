@@ -6,6 +6,7 @@ var copyClipboard = document.getElementById('copyClipboard')
 reviewStart.addEventListener("click",moveToReview)
 function moveToReview(){
   location.href="#reviewTitle"
+  dataLayer.push({'event':'reviewStart'});
 }
 // <!-- 클립보드 복사 완료 alert -->
 copyClipboard.addEventListener("click",clipboard)
