@@ -1,6 +1,7 @@
 var reviewStart = document.getElementById('reviewButton')
 var reviewComplete = document.getElementById('reveiwComplete')
 var copyClipboard = document.getElementById('copyClipboard')
+dataLayer=[];
 
 // <!-- 리뷰작성 바로가기 버튼 클릭 -->
 reviewStart.addEventListener("click",moveToReview)
