@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&display=swap');
-
-#eventTitle{
-  background-color:#0C2134;
-  color:white;
-  text-align: center;
+.background{
+  background-color:#E6E6E6;
 }
 .img{
    position: relative;
-   background-image: url('img/participate.jpg');background-repeat: no-repeat;
-   height: 70vh;
+   background-image: url('img/title.jpg');background-repeat: no-repeat;
+   height: 40vh;
    background-size: cover;
 }
 .img .content{
@@ -19,40 +16,55 @@
     color: white;
     text-align: center;
 }
+#benefit{
+  background-color:#FBEFFB;
+  text-align: center;
+  font-weight: bold;
+}
 #prodcut{
- background-color:#181715;
+ background-color:#B40431;
  text-align: center;
 }
-#coupon{
+/* 리뷰 */
+#reviewPoint{
+  background-color:#FBEFFB;
   text-align: center;
 }
+#reviewTitle{
+  background-color:#FBEFFB;
+  font-weight:bold;
+  text-align: center;
+}
+#reviewBox{
+  background-color:#FBEFFB;
+}
 #share{
- background-color:#181715;
+ background-color:#B40431;
  color:white;
  text-align: center;
 }
 #preview{
- background-color:#181715;
+ background-color:#B40431;
  color:white;
  text-align: center;
 }
-/* 리뷰 */
-#reviewTitle{
-  background-color:#181715;
-  color:white;
-  text-align: center;
+.carousel-caption{
+  background-color:#B40431;
+  opacity:0.9;
 }
-#reviewForm{
-  background-color:#181715;
-  color:white;
+#productTitle{
+  background-color:white;
 }
-#preview2{
- background-color:#181715;
- color:white;
- text-align: center;
+#productDetail{
+  background-color:white;
+  text-align:center;
 }
-#share2{
- background-color:#181715;
- color:white;
- text-align: center;
+#registrationForm{
+  text-align:left;
+}
+#warning{
+  text-align:left;
+}
+.space{
+  background-color:#E6E6E6;
 }
